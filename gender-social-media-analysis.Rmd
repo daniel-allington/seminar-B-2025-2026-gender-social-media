@@ -7,4 +7,13 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+
+d_social_media <- read_csv('../data/BES-2017-f2f-gender-fb-tw.csv')
 ```
+
+# Hypothesis
+
+H1 Gender is associated with Facebook use
+
